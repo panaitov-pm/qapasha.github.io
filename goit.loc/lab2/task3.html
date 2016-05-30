@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>form</title>
+</head>
+<body>
+	<form action="">
+		<label for="name">Name</label> <br/>
+		<input type="text" name="name" placeholder="Ivan"> <br/><br/>
+		<label for="email">Email</label> <br/>
+		<input type="email" name="email" placeholder="email@mail.com"> <br/></form><br>
+		<label for="sex">Sex</label> <br/>
+		<input type="radio" name="sex"> <span>Male</span>
+		<input type="radio" name="sex"> <span>Female</span><br/><br/>
+		<label for="status">Current status</label> <br/>
+		<input type="checkbox" name="status" value="student"><span>Student</span><br/>
+		<input type="checkbox" name="status" value="employed"><span>Employed</span><br/>
+		<input type="checkbox" name="status" value="Unemployed"><span>Unemployed</span><br/>
+		<p><label for="monthYear">Month and Year of birth</label></p>
+		<p><input type="month" min="1960-01" max="2016-12"></p>
+		<label for="skillTech">Skills and Technologies</label><br/>
+		<select name="skillTech" size="10" multiple="multiple">
+			<optgroup label="Tech skills"> 
+				<option value="html">HTML</option>
+				<option value="css">CSS</option>
+				<option value="JS">JS</option>
+				<option value="git">git</option>
+			</optgroup>
+			<optgroup label="Soft skills">
+				<option value="timeManager">Time manager</option>
+				<option value="proactivity">Proactivity</option>
+				<option value="teamwork">Teamwork</option>
+				<option value="leadership">Leadership</option>
+			</optgroup> 
+		</select><br/><br/>
+		<label for="photo"></label><br/>
+		<p><input type="file"></p>
+		<label for="comments"></label><br/>
+		<textarea name="comments" cols="20" rows="5"></textarea><br/>
+		<input type="submit" value="Save">
+
+	</form>
+</body>
+</html>
