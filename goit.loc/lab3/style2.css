@@ -1,0 +1,77 @@
+article p:nth-of-type(1) {
+	font-size: 24px;
+	
+}
+article p:nth-last-of-type(1){
+	background: #999;
+}
+a[href*="ya"]{
+	color: orange;
+}
+a[href*="google"]{
+	color: grey
+}
+a{
+	color: blue;
+}
+.RTL{
+	display: inline-block;
+	direction: ltr;
+	color: orange;
+}
+table tr:nth-child(even){
+	background: #ddebf7;
+}
+table td:nth-child(2n+3){
+	background: #f2f2de;
+}
+div{
+	font-weight: bold;
+}
+div label{
+	padding-right: 20px;
+	
+}
+
+div input{
+	display: none;
+}
+
+label[for="red"]{
+	color: red;
+}
+.red{
+	background: red;
+}
+label[for="green"]{
+	color: green;
+}
+.green{
+	background: green;
+}
+label[for="blue"]{
+	color: blue;
+}	
+.blue{
+	background: blue;
+}
+label[for="red"],
+label[for="green"],
+label[for="blue"]{
+	text-decoration: underline;
+}
+div span{
+	padding: 3px;
+	color: white;
+	border-radius: 5px;
+}
+ #red:checked~  span.red,
+ #green:checked~  span.green,
+ #blue:checked~  span.blue{
+    display: none;
+}
+#red:checked + [for="red"], 
+#green:checked + [for="green"], 
+#blue:checked + [for="blue"]{
+	opacity: .5;
+}
