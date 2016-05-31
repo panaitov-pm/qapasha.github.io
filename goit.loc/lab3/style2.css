@@ -25,33 +25,31 @@ table tr:nth-child(even){
 table td:nth-child(2n+3){
 	background: #f2f2de;
 }
+/* for task6*/
 div{
 	font-weight: bold;
 }
 div label{
 	padding-right: 20px;
-	
 }
-
 div input{
 	display: none;
 }
-
 label[for="red"]{
 	color: red;
-}
-.red{
-	background: red;
 }
 label[for="green"]{
 	color: green;
 }
-.green{
-	background: green;
-}
 label[for="blue"]{
 	color: blue;
 }	
+.red{
+	background: red;
+}
+.green{
+	background: green;
+}
 .blue{
 	background: blue;
 }
