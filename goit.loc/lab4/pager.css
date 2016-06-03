@@ -1,0 +1,36 @@
+.pager li{
+	display: inline-block;
+	color: #A23CD0;
+	border: 1px solid #e2e2e2;
+	padding: 5px 10px;
+	border-radius: 7px;
+	
+}
+.pager li:hover{
+	color:  #FFBCD9;
+	background: #A23CD0;
+	cursor: pointer;
+}
+
+.pager li:first-child{
+	border: none;
+	margin-right: 15px;
+}
+.pager li:nth-child(2){
+	border: none;
+	margin-right: 10px;
+}
+.pager li:nth-child(5){
+	border: none;
+}
+.pager li:nth-child(5):hover{
+	color: #A23CD0;
+	background: none;
+}
+.pager li:last-child{
+	border: none;
+	margin-left: 15px;
+}
+.pager li:nth-last-child(2){
+	border: none;
+	margin-left: 10px;

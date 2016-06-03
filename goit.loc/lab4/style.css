@@ -1,0 +1,23 @@
+.wrap{
+	background: #A64DFF;
+
+}
+.wrap_list{
+	width: 900px;
+	margin: 0 auto;
+
+}
+
+.wrap_list li{
+	display: inline-block;
+	color: white;
+	font-family: 'Economica', sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 10px;
+	padding: 5px;
+}
+.wrap_list li:hover{
+	background: #eee;
+	color: #ADA6A3;
+}
