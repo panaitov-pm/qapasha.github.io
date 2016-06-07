@@ -1,0 +1,224 @@
+
+.offers{
+	position: relative;
+	width: 900px;
+	height: 470px;
+}
+.best-value-offer{
+	z-index: 2;
+	position: absolute;
+	background-color: #EE8129;
+	left: 300px;
+	width: 300px;
+	min-height: 470px;
+	font-family: "Trebuchet MS", sans-serif;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+	padding-bottom: 1px;
+}
+.best-value-offer_title{
+	position: relative;
+	width: 290px;
+	height: 77px;
+	margin: 0 auto;
+	text-align: center;
+}
+.best-value-offer_title-name,
+.standart-offer_title-name,
+.ultimate-offer_title-name{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 300px;
+    height: 30px;
+	margin: auto 0;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+}
+.best-value-offer_content{
+	position: relative;
+	width: 290px;
+	height: 388px;
+	background: #fff;
+	padding: 1px;
+	margin: 0px auto;
+}
+.best-value-offer_content_price-name,
+.best-value-offer_content_price-value,
+.standart-offer_content_price-name,
+.standart-offer_content_price-value,
+.ultimate-offer_content_price-name,
+.ultimate-offer_content_price-value{
+	position: relative;
+	font-size: 24px;
+	color: #35495A;
+	text-align: center;
+	margin-top: 15px;
+}
+.best-value-offer_content_price-value,
+.standart-offer_content_price-value,
+.ultimate-offer_content_price-value{
+	margin-top: -10px;
+}
+.best-value-offer_content_price-number,
+.standart-offer_content_price-number,
+.ultimate-offer_content_price-number{
+	font-size: 300%;
+	font-weight: bold;
+}
+.best-value-offer_content_price-dollar,
+.standart-offer_content_price-dollar,
+.ultimate-offer_content_price-dollar{
+	position: relative;
+	vertical-align: top;
+	top: 10px;
+	font-weight: bold;
+}
+.best-value-offer_content_price-month,
+.standart-offer_content_price-month,
+.ultimate-offer_content_price-month{
+	position: relative;
+	right: 5px;
+	top: 5px;
+	font-size: 75%;
+}
+.best-value-offer_content_list,
+.standart-offer_content_list,
+.ultimate-offer_content_list{
+	position: relative;
+	top: 5px;
+	width: 270px;
+	margin: 0 auto;
+}
+.best-value-offer_content_list-list,
+.standart-offer_content_list-list,
+.ultimate-offer_content_list-list{
+	list-style: none;
+	width: 269px;
+	padding: 1px;
+}
+.best-value-offer_content_list_list-item,
+.standart-offer_content_list_list-item,
+.ultimate-offer_content_list_list-item{
+	position: relative;
+	list-style-position: inside;
+	padding: 7px 0 7px 60px;
+	border-bottom: 1px solid #fff;
+	opacity: 0.7;
+}
+.best-value-offer_content_list_list-item::before,
+.standart-offer_content_list_list-item::before,
+.ultimate-offer_content_list_list-item::before{
+	position: absolute;
+	width: 14px;
+	height: 14px;
+	top: 8px;
+	background: url(1.png) 0 0 no-repeat;
+	margin-left: -1.6em;
+	content: "";
+}
+.best-value-offer_content_list_list-item:nth-child(odd),
+.standart-offer_content_list_list-item:nth-child(odd),
+.ultimate-offer_content_list_list-item:nth-child(odd){
+	background: #EDF5FD;
+}
+.best-value-offer_content_list_list-item:nth-child(even),
+.standart-offer_content_list_list-item:nth-child(even),
+.ultimate-offer_content_list_list-item:nth-child(even){
+	background: #F5F5F6;
+}
+.best-value-offer_content_list_list-item:last-child,
+.standart-offer_content_list_list-item:last-child,
+.ultimate-offer_content_list_list-item:last-child{
+	border-bottom: none;
+}
+.best-value-offer_content_button,
+.standart-offer_content_button,
+.ultimate-offer_content_button{
+	text-align: center;
+}
+.best-value-offer_content_button-item{
+	width: 265px;
+	padding: 10px 30px;
+	border-radius: 7px;
+	background-color: #EE8129;
+	outline: none; 
+	font-family: "Trebuchet MS", sans-serif;
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.standart-offer{
+	position: absolute;
+	margin: auto 0;
+	top: 15px;
+	width: 300px;
+	height: 430px;
+	font-family: "Trebuchet MS", sans-serif;
+	border-radius: 7px 0 0 7px;
+	background-color: #37C2D3;
+}
+.standart-offer_title{
+	position: relative;
+	width: 290px;
+	height: 62px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.standart-offer_content{
+	position: relative;
+	width: 298px;
+	height: 372px;
+	background: #fff;
+	border: 2px solid #eee;
+	border-top: none;
+	border-right: none;
+	padding-top: 1px;
+	border-radius: 0 0 0 7px;
+}
+.standart-offer_content_button-item,
+.ultimate-offer_content_button-item{
+	width: 265px;
+	padding: 10px 30px;
+	border-radius: 7px;
+	background-color: #3371A6;
+	outline: none; 
+	font-family: "Trebuchet MS", sans-serif;
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+}
+.ultimate-offer{
+	position: absolute;
+	background-color: #1CB79A;
+	right: 0;
+	top: 15px;
+	width: 300px;
+	height: 430px;
+	font-family: "Trebuchet MS", sans-serif;
+	border-radius: 0 7px 7px 0;
+}
+.ultimate-offer_title{
+	position: relative;
+	width: 290px;
+	height: 62px;
+	margin: 0 auto;
+	text-align: center;
+}
+.ultimate-offer_content{
+	position: relative;
+	width: 298px;
+	height: 372px;
+	background: #fff;
+	border: 2px solid #eee;
+	border-top: none;
+	border-left: none;
+	padding-top: 1px;
+	border-radius: 0 0 7px 0 ;
+}

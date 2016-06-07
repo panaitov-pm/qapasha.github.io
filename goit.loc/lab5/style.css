@@ -1,0 +1,53 @@
+.wrap{
+	position: relative;
+	width: 100%;
+	background: #A64DFF;
+}
+.wrap_list{
+	width: 900px;
+	margin: 0 auto;
+}
+.wrap_list li{
+	display: inline-block;
+	color: white;
+	font-family: "Economica", sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	margin-right: 5px;
+	padding: 5px;
+}
+.wrap_list li:hover{
+	background: #eee;
+	color: #ADA6A3;
+}
+.wrap_list li:last-child{
+	margin-left: 15px;
+}
+.wrap_list li:first-child{
+	margin-left: -15px;
+}
+.travelList{
+	position: absolute;
+	background: #eee;
+	left: 0;
+	right: 0;
+	visibility: hidden; 
+	text-align: center;
+}
+.travelList li{
+	display: inline;
+	color: #ADA6A3;
+	font-family: "Economica", sans-serif;
+	font-size: 24px;
+	font-weight: normal;
+	margin-right: 5px;
+	padding: 5px;
+}
+.travelList li:last-child{
+	margin-left: 0;
+}
+.travel:hover + .travelList{
+	visibility: visible;
+}
+
+

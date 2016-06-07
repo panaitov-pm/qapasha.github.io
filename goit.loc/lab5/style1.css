@@ -1,0 +1,79 @@
+
+.box{
+	position: relative;
+	background-color: #EE8129;
+	width: 300px;
+	height: 470px;
+	font-family: "Trebuchet MS", sans-serif;
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	box-shadow: 0 0 10px rgba(0, 0, 0, .5);
+	border-radius: 5px;
+}
+.box__writting{
+	position: absolute;
+	right: 0;
+	left: 0;
+	text-align: center;
+	color: #fff;
+	font-size: 24px;
+	font-weight: bold;
+}
+.box_content{
+	position: relative;
+	background: #fff;
+	height: 390px;
+	width: 290px;
+	top: 75px;
+	margin: 0 auto;
+}
+.box_content_price{
+	color: #35495A;
+	font-size: 24px;
+	text-align: center;
+}
+.box_content_priceName{
+	margin-top: 10px;
+	padding-top: 20px;
+	line-height: 0.5;
+}
+.box_content_dollar{
+	font-size: 300%;
+	font-weight: bold;
+}
+.box_content_price sup{
+	vertical-align: top;
+}
+.box_content_list{
+	margin: 0 10px;
+}
+.box_content_listList li{
+	width: 235px;
+	margin-left: -35px;
+	list-style-image: url(1.png);
+	list-style-type: none;
+	list-style-position: inside;
+	padding-left: 25px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-bottom: 1px solid #fff;
+	color: #35495A;
+	opacity: 0.8;
+}
+.box_content_listList li:nth-child(odd){
+	background: #EDF5FD;
+}
+.box_content_listList li:nth-child(even){
+	background: #F5F5F6;
+}
+.box_content_button input{
+	margin-left: 15px;
+	background: #EE8129;
+	width: 260px;
+	border-radius: 8px;
+	padding: 15px 0;
+	color: #fff;
+	font-size: 16px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-weight: bold;
+	padding: 10px 0;
+}
