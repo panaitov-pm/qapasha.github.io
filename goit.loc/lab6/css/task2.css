@@ -1,0 +1,99 @@
+html,
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 0;
+}
+.comments{
+	position: relative;
+	top: 100px;
+	width: 100%;
+	min-height: 100px;
+	background: url(background.png) 0 0 repeat;
+	background-size: cover;
+	padding-top: 1px;
+	padding-bottom: 55px;
+	font-family: "Trebuchet MS", sans-serif;
+	font-size: 16px;
+	text-align: center;
+}
+.background-grey{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	opacity: 0.7;
+	background: #000;
+}
+.comments_title{
+	position: relative;
+	text-align: center;
+	font-size: 2.5em;
+	color: #306DA4;
+	z-index: 2;
+}
+.what-color{
+	color: #E07A28;
+}
+.comments_box{
+	position: relative;
+	display: inline-block;
+	width: 490px;
+	min-height: 100px;
+	margin-left: 40px;
+	margin-top: 20px;
+	z-index: 2;
+	padding: 1px;
+}
+.comments_box_photo{
+	position: relative;
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.comments_box_photo::before{
+	position: absolute;
+	top: 50%;
+	left: 101px;
+	margin-top: -12px;
+	width: 0;
+	height: 0;
+	border: 12px solid;
+	border-color: transparent #fff transparent transparent;
+	content: "";
+}
+.comments_box_content{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	float: right;
+	width: 365px;
+	min-height: 100px;
+	padding: 10px 10px 0 10px;
+	background: #f7f7f7;
+}
+.comments_box_content_title{
+	color: #5E8CB8;
+	overflow: hidden;
+	padding-bottom: 4px;
+	padding-right: 5px;
+	border-bottom: 1px dotted #999;
+	font-style: italic;
+}
+.comments_box_content_title-name{
+	float: left;
+}
+.comments_box_content_title-name::before{
+	content: "- ";
+}
+.comments_box_content_title-type{
+	float: right;
+}
+.comments_box_content_comment{
+	min-height: 50px;
+	text-align: left;
+	margin: 5px 0;
+	color: #999;
+aborder: 1px solid #000;
+}
