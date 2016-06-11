@@ -63,7 +63,7 @@ html,body{
 	right: 0;
 	bottom: 0;
 	left: 0;
- 	background-color: rgba(0,92,173,0.7);
+ 	background-color: rgba(11,53,84,0.6);
  	background-repeat: repeat;
 }
 .banner_contain{
@@ -349,7 +349,7 @@ html,body{
 	min-height: 100px;
 	background-image: url(../img/background.png), url(../img/background-grid.png);
 	background-blend-mode: screen;
-	background-size: cover;
+	abackground-size: cover;
 	padding-top: 1px;
 	padding-bottom: 55px;
 	font-family: "Trebuchet MS", sans-serif;
