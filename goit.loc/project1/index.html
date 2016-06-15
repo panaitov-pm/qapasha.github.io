@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>task2</title>
+	<title>Project</title>
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
@@ -12,12 +12,18 @@
 			<img class="header_content_logo" src="img/logo.png" alt="">
 			<div class="header_content_nav">
 				<ul class="header_content_nav_list">
-					<li class="header_content_nav_list-item">home</li>
-					<li class="header_content_nav_list-item">about</li>
-					<li class="header_content_nav_list-item">portfolio</li>
-					<li class="header_content_nav_list-item">services</li>
-					<li class="header_content_nav_list-item">pricing</li>
-					<li class="header_content_nav_list-item">contact</li>
+					<li class="header_content_nav_list-item">
+					<a class="header_content_nav_link" href="#header">home</a></li>
+					<li class="header_content_nav_list-item">
+					<a class="header_content_nav_link" href="#about">about</a></li>
+					<li class="header_content_nav_list-item">
+					<a class="header_content_nav_link" href="#portfolio">portfolio</a></li>
+					<li class="header_content_nav_list-item">
+					<a class="header_content_nav_link" href="#services">services</a></li>
+					<li class="header_content_nav_list-item">
+					<a class="header_content_nav_link" href="#offers">pricing</a></li>
+					<li class="header_content_nav_list-item">
+					<a class="header_content_nav_link" href="#contact">contact</a></li>
 				</ul>
 			</div>
 		</div>
@@ -38,9 +44,53 @@
 			<input class="banner_contain_button" type="button" value="button name">
 		</div>
 	</div>
+	<!-- Services -->
+	<div id="services" class="services">
+		<div class="services_content">
+			<h2 class="services_content_title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h2>
+			<figure class="services_content_box services_content_box__first">
+				<p class="services_content_box_background-img">
+					<img src="img/padlock.png" alt="padlock" class="services_content_box_img">
+				</p>
+				<figurcaption class="services_content_box-caption">protect</figurcaption>
+				<p class="services_content_box_written">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur velit hic voluptates quod, eaque neque, maiores rem a amet ullam quas asperiores quibusdam laudantium aut, mollitia at saepe maxime consequatur.</p>
+			</figure>
+				<figure class="services_content_box">
+					<p class="services_content_box_background-img">
+						<img src="img/lightning.png" alt="lightning" class="services_content_box_img">
+					</p>
+					<figurcaption class="services_content_box-caption">alert</figurcaption>
+					<p class="services_content_box_written">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur velit hic voluptates quod, eaque neque, maiores rem a amet ullam quas asperiores quibusdam laudantium aut, mollitia at saepe maxime consequatur.</p>
+				</figure>
+				<figure class="services_content_box">
+					<p class="services_content_box_background-img">
+						<img src="img/phone.png" alt="phone" class="services_content_box_img">
+					</p>
+					<figurcaption class="services_content_box-caption">detect</figurcaption>
+					<p class="services_content_box_written">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur velit hic voluptates quod, eaque neque, maiores rem a amet ullam quas asperiores quibusdam laudantium aut, mollitia at saepe maxime consequatur.</p>
+				</figure>
+		</div>	
+	</div>
+	<!-- Middle section -->
+	<div class="middle-section">
+	  <div class="comments_background-grey"></div>
+		<div class="middle-section_box">
+			<div class="middle-section_box_content">
+				<h2 class="middle-section_box_content-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea dolorum iure amet praesentium dolorem, dicta magni similique nobis. Modi eaque cum animi voluptatum. Minima harum adipisci eos iure consequuntur similique.
+				</h2>
+				<p class="middle-section_box_content-pharagraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+				</p>
+				<ul class="middle-section_box_content_list">
+					<li class="middle-section_box_content_list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit molestias et impedit delectus, voluptatibus at! Dignissimos quis voluptatibus architecto velit, corporis veritatis delectus hic culpa dolore, iure expedita commodi mollitia!</li>
+					<li class="middle-section_box_content_list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae sapiente voluptas aspernatur sunt iure, animi ea libero accusamus id quaerat quod perspiciatis! Beatae corporis eligendi dolorem odio! Ipsum, assumenda, ipsam.</li>
+					<li class="middle-section_box_content_list-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, repudiandae, sed. Enim aliquid autem totam dolores delectus, tempore qui, rerum laboriosam, nam cupiditate temporibus cumque officiis, iure fugiat dicta ex.</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 	<!-- Offers -->
-	<div class="offers">
-		<h2 class="offers_title">
+	<div id="offers" class="offers">
+		<h2 class="offers_title" >
 			we have a very flexible offers for you to choose
 		</h2>
 		<div class="best-value-offer">
@@ -112,7 +162,7 @@
 	</div>
 	<!-- Comments -->
 	<div class="comments">
-		<div class="background-grey"></div>
+		<div class="comments_background-grey"></div>
 		<h2 class="comments_title">
 			<span class="what-color">wHAT </span>CLIENT SAYS
 		</h2>
